@@ -5,4 +5,4 @@ tags: ["Geology", "Aspect"]
 draft: false
 ---
 
-We can provide hyperlinks to docs here.  We need some docs though :)
+We can provide hyperlinks to documents here.  We need some docs though :)
