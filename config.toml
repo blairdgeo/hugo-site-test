@@ -1,0 +1,33 @@
+baseURL = "https://test-project-site.s3-website-us-west-2.amazonaws.com"
+languageCode = "en-us"
+title = "Sample Project Site"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  blog = "/:filename/"
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Documents"
+    pre = "edit"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    pre = "tag"
+    url = "/tags/"
+    weight = 3
+
+[params]
+  containerMaxWidth = "700px"
+  dateFormat = "Jan 2, 2006"
+  homeText = "My awesome project site.  We need some more stuff."
