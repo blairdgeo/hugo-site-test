@@ -1,6 +1,6 @@
 baseURL = "https://master.d3gpabo3zdttme.amplifyapp.com"
 languageCode = "en-us"
-title = "Sample Project Site"
+title = "Spic'n Span Cleaners"
 
 [taxonomies]
   tag = "tags"
@@ -30,4 +30,7 @@ title = "Sample Project Site"
 [params]
   containerMaxWidth = "700px"
   dateFormat = "Jan 2, 2006"
-  homeText = "My awesome project site.  We need some more stuff."
+  homeText = "Environmental Cleanup Project"
+  description = ""
+  projectDescriptionTitle = "Project Description"
+  projectDescriptionCopy = "The purpose of the project is to remove subsurface contamination related to releases from a former dry cleaner. Electrical resistance heating technology will be used to remediate the subsurface contamination. Cleanup will also facilitate future redevelopment of the Spic’N Span property."

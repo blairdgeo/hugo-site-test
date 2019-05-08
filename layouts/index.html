@@ -4,5 +4,9 @@
   <h1>{{ .Site.Title }}</h1>
   <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
 </div>
+<div id="home-jumbotron" class="jumbotron text-center">
+  <h2>{{ .Site.Params.projectDescriptionTitle }}</h2>
+  <p class="font-125">{{ .Site.Params.projectDescriptionCopy | markdownify }}</p>
+</div>
 
 {{ end }}
